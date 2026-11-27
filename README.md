@@ -7,7 +7,7 @@ End-to-end Data Analytics portfolio project analyzing **100,000+ orders** from t
 ## Dashboard Preview & Interactive Access
 
 * **Interactive Power BI File (`.pbix`):** [Download from Google Drive](https://drive.google.com/file/d/17R2S1cSdnW3uKEB_E_rHELiPdoYqn3vQ/view?usp=sharing)
-* **Full 3-Page Dashboard Report (PDF):** [`Olist_Ecommerce_Analysis.pdf`](Olist_Ecommerce_Analysis.pdf)
+* **Full 3-Page Dashboard Report (PDF):** [`Olist_Ecommerce_Analysis_Dashboard.pdf`](Olist_Ecommerce_Analysis_Dashboard.pdf)
 
 ### Executive Overview
 ![Executive Overview](01_executive_overview.png)
@@ -27,9 +27,9 @@ End-to-end Data Analytics portfolio project analyzing **100,000+ orders** from t
 
 ## Tech Stack & Repository Files
 
-* **Data Cleaning & Exploratory Analysis:** [`analysis.py`](analysis.py) (`pandas`, `numpy`)
-* **Business Validation Queries:** [`Olist_Final_Business_Findings.sql`](Olist_Final_Business_Findings.sql) (MySQL `JOIN`s, CTEs, Window Functions, Aggregations)
-* **Dashboard & Visuals:** [`Olist_Ecommerce_Analysis.pdf`](Olist_Ecommerce_Analysis.pdf), page PNG screenshots (`01`–`03`), and full `.pbix` model on Google Drive
+* **Data Cleaning & Exploratory Analysis:** [`python/analysis.py`](python/analysis.py) (`pandas`, `numpy`)
+* **Business Validation Queries:** [`sql/Olist_Final_Business_Findings.sql`](sql/Olist_Final_Business_Findings.sql) (MySQL `JOIN`s, CTEs, Window Functions, Aggregations)
+* **Dashboard & Visuals:** [`Olist_Ecommerce_Analysis_Dashboard.pdf`](Olist_Ecommerce_Analysis_Dashboard.pdf), page PNG screenshots (`01`–`03`), and full `.pbix` model on Google Drive
 
 ---
 
@@ -43,6 +43,6 @@ End-to-end Data Analytics portfolio project analyzing **100,000+ orders** from t
 ## How to Reproduce
 
 1. Download the raw CSV files from the Kaggle dataset link above.
-2. Run [`analysis.py`](analysis.py) to clean and preprocess the relational tables.
-3. Execute [`Olist_Final_Business_Findings.sql`](Olist_Final_Business_Findings.sql) in MySQL to validate all 6 core business metrics.
+2. Run [`python/analysis.py`](python/analysis.py) to clean and preprocess the relational tables.
+3. Execute [`sql/Olist_Final_Business_Findings.sql`](sql/Olist_Final_Business_Findings.sql) in MySQL to validate all 6 core business metrics.
 4. Download the `.pbix` file via the Google Drive link above and open it in **Power BI Desktop** to explore interactive filters and DAX measures.
