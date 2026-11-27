@@ -7,16 +7,10 @@ End-to-end Data Analytics portfolio project analyzing **100,000+ orders** from t
 ## Dashboard Preview & Interactive Access
 
 * **Interactive Power BI File (`.pbix`):** [Download from Google Drive](https://drive.google.com/file/d/17R2S1cSdnW3uKEB_E_rHELiPdoYqn3vQ/view?usp=sharing)
-* **Static Dashboard Report (PDF):** [`Olist_Ecommerce_Analysis.pdf`](Olist_Ecommerce_Analysis.pdf)
+* **Full 3-Page Dashboard Report (PDF):** [`Olist_Ecommerce_Analysis.pdf`](Olist_Ecommerce_Analysis.pdf)
 
-### 1. Executive Overview
+### Executive Overview
 ![Executive Overview](01_executive_overview.png)
-
-### 2. Delivery & Customer Experience
-![Delivery & Customer Experience](02_delivery_customer_experience.png)
-
-### 3. Customer, Seller & Payment Insights
-![Customer, Seller & Payment Insights](03_customer_seller_payment.png)
 
 ---
 
@@ -35,7 +29,7 @@ End-to-end Data Analytics portfolio project analyzing **100,000+ orders** from t
 
 * **Data Cleaning & Exploratory Analysis:** [`analysis.py`](analysis.py) (`pandas`, `numpy`)
 * **Business Validation Queries:** [`Olist_Final_Business_Findings.sql`](Olist_Final_Business_Findings.sql) (MySQL `JOIN`s, CTEs, Window Functions, Aggregations)
-* **Dashboard & Visuals:** [`Olist_Ecommerce_Analysis.pdf`](Olist_Ecommerce_Analysis.pdf), page PNG screenshots, and full `.pbix` model on Google Drive
+* **Dashboard & Visuals:** [`Olist_Ecommerce_Analysis.pdf`](Olist_Ecommerce_Analysis.pdf), page PNG screenshots (`01`–`03`), and full `.pbix` model on Google Drive
 
 ---
 
